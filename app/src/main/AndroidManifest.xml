@@ -13,6 +13,9 @@
         android:theme="@style/Theme.SpaceLabsTask"
         tools:targetApi="31">
         <activity
+            android:name=".TestClassFile"
+            android:exported="false" />
+        <activity
             android:name=".Tasklist"
             android:exported="false" />
         <activity
