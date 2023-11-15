@@ -45,6 +45,7 @@ public class ActivityRegister extends AppCompatActivity {
                     Toast.makeText(ActivityRegister.this, "Please fill all the fields", Toast.LENGTH_SHORT).show();
                 }
                 else {
+
                     if(pwd.equals(repwd)){
                         if(dbHelper.checkUsername(user)){
                             Toast.makeText(ActivityRegister.this, "User Already exists", Toast.LENGTH_SHORT).show();
